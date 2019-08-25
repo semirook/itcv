@@ -18,7 +18,7 @@ programming_languages: >
   Python (C2), JavaScript (B2)
 address:
   - City, Country
-email: tipaproit@protonmail.com
+email: semirook@gmail.com
 urls:
   - linkedin
   - github
