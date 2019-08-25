@@ -18,7 +18,7 @@ programming_languages: >
   Python (C2), JavaScript (B2)
 address:
   - City, Country
-email: semirook@gmail.com
+email: tipaproit@protonmail.com
 urls:
   - linkedin
   - github
@@ -50,7 +50,7 @@ $endfor$
 
 LaTeX takes then care of the typesetting with its usual elegance. Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
 
-![preview](preview.png)
+![preview](output.png)
 
 With this method, you can keep your entire CV encoded in a single YAML file, put it under version control (into a gist, for instance), and generate a PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
 
