@@ -1,0 +1,156 @@
+---
+name: Roman Zaiev
+photo: "me.jpg"
+who:
+  - 8+ Years Experience
+  - Passionate Software Engineer
+natural_languages: >
+  English (C1), Russian (C2), Ukrainian (C2), French (A1), German (A1)
+programming_languages: >
+  Python (C2), JavaScript (B2), Rust (B1), Go (A2), Clojure (A2), OCaml (A1)
+address:
+  - Kyiv, Ukraine
+phone: "+38 223-322-223-322"
+email: tipaproit@protonmail.com
+urls:
+  - linkedin.com/in/semirook
+  - t.me/tipaproit
+
+pets:
+  - "[Krolib: magic library and DSL to handle complex schedules](https://github.com/nextiva/krolib)"
+  - "[Flask-Kit: backbone for Flask-based projects with flavor of Django](https://github.com/semirook/flask-kit)"
+  - "[Snaql: raw *QL queries from Python without pain](https://github.com/semirook/snaql)"
+  - "*...and [others](https://github.com/semirook)*"
+
+talks:
+  - "[API-centric Web Development with Tornado](https://speakerdeck.com/semirook/api-centric-web-development-with-tornado-or-the-great-refactoring-story) (2015)"
+  - "[Search? Sphinx!](https://speakerdeck.com/semirook/poisk-sphinx) (2013)"
+
+intro:
+  - Over the past years, I have worked on many different projects, from simple
+    blogs to fault-tolerant event-driven systems. I have faced unique
+    challenges, huge number of technologies and my experience can be of use to
+    your business. Systematization, synthesis and interdisciplinary work is my
+    strength.
+
+  - There is a positive experience of forming a development team based on the
+    Valve model. I know how to run the product through all stages, ~~from
+    denial to acceptance,~~ from requirements to release. Both as a regular
+    developer and as a team/tech leader.
+
+  - Mostly I work with asynchronous Python backend but also enjoy working with
+    frontend, have a strong development experience with React/Redux.
+
+  - I love to use CLI tools like `vim`, `tmux`, `zsh`, `fzf` and other
+    three-four letter words in my daily work. Ideally, this should convince you
+    of my passion for efficiency and minimalism.
+
+  - The author of the best Russian-language IT channel in Telegram (according
+    to the author) — [Tipa Pro IT](https://t.me/tipaproit). This helps me to be
+    aware of the entire industry. Have some relatively popular projects on
+    GitHub and new ones are always coming up. I'm really into technology and also
+    seriously interested in graphic design, UI/UX, philosophy and
+    psychoanalysis.
+
+experience:
+- years: Fab 2017 — Aug 2019
+  employer: Nextiva
+  city: Kyiv, Ukraine // Scottsdale, USA
+  job: Software Engineer
+  details:
+    - "Was involved in the development of [Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html).
+      And a lot of work has been done: initial [FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
+      implementation for the Rule traversal, Lisp-like DSL to describe Rule
+      conditions, magic library to handle complex schedules for so-called
+      time-based rules and internal SaaS on top of it (was published as the
+      first open source project of the company), etc."
+    - Was actively involved in the life of the company and even received the
+      title of Rockstar Developer.
+  stack:
+    - Python 3, asyncio, aiohttp, RabbitMQ, JSON:API, Protobuf, gRPC, PostgreSQL, K8S, etc.
+    - Tons of self-made stuff
+
+- years: Nov 2015 — Nov 2016
+  employer: B2B Soft
+  city: Kyiv, Ukraine // New York, USA
+  job: Software Engineer, Tech Lead
+  details:
+    - Developed the brand new medical platform.
+    - Introduced and successfully implemented service-oriented architecture,
+      full redesign, stepwise Django monolith decomposition, rolling releases,
+      etc. From A to Z.
+    - Built efficient distributed team.
+  stack:
+    - Python 3, Tornado, JSON RPC
+    - ES6, React/Redux, Webpack (SPA)
+    - Sphinx Search (live, geo, delta indexes flow)
+    - Real-time billing and stats (Apache Kafka, MongoDB)
+    - Third-party APIs integration (Authorize.Net, Google, Facebook, Mandrill, MaxMind)
+    - Ansible (infrastructure automation), AWS (EC2, RDS, S3, Route53)
+    - Unique solution for Whitelabel domains (partner network sites)
+
+- years: Mar 2015 — Nov 2015
+  employer: SoftServe
+  city: Kyiv & Lviv, Ukraine // San Jose, USA
+  job: Software Engineer
+  details:
+    - Was involved in the development of the telemetry aggregation solution for Cisco.
+    - Developed Cisco Cloud Services, BigData extension for OpenStack Horizon.
+  stack:
+    - Python 2/3, Logstash, MongoDB, RabbitMQ, REST, Puppet
+    - OpenStack, Flask, Tornado, Ansible
+    - ES5, Backbone.js, Marionette.js
+
+- years: Fab 2014 — Mar 2015
+  employer: ModnaKasta
+  city: Kyiv, Ukraine
+  job: Software Engineer, Head of Platform Development
+  details: >
+    Developed a brand new e-commerce platform.
+  stack:
+    - Python 3, Tornado, Elasticsearch, ZeroMQ, Protobuf, PostgreSQL
+    - ES5, Backbone.js, Marionette.js, Websockets
+
+- years: Aug 2013 — Jan 2014
+  employer: GetGoing.com
+  city: Kyiv, Ukraine // San Francisco, USA
+  job: Software Engineer
+  details:
+    - "Developed seat preview and seat selection for the most popular US airlines (backend and frontend, Amadeus GDS integration)."
+    - "Mid-office, statistical data search and aggregation, [PNR](http://en.wikipedia.org/wiki/Passenger_name_record) Management SPA."
+  stack:
+    - Python 2/3, Django, PostgreSQL, Celery, Elasticsearch
+    - ES5, Backbone.js, Marionette.js
+
+- years: Nov 2012 — Aug 2013
+  employer: Prom.ua
+  city: Kyiv, Ukraine
+  job: Backend Developer
+  details:
+    - Developed the company's internal services, CRM.
+    - Was working on test coverage, legacy code refactoring, data processing and third-party APIs integration.
+  stack:
+    - Python 2, Pylons, Mako, SQLAlchemy, Celery, Solr, Mercurial
+
+- years: May 2011 — Nov 2012
+  employer: Future Colors
+  city: Moscow, Russia
+  job: Backend Developer
+  details: >
+    Was involved in the development of the wide range of studio websites: TNK
+    series (TNK Carbon, regional site), [FutureToday](http://fut.ru) (job
+    offers for Russian students), [Belonika](http://belonika.ru) (Russian top
+    blogger culinary portal), [RAF](http://0560.ru/en/) (Russian Auto
+    Fellowship).
+  stack:
+    - Python 2, Django, Celery, Sphinx Search
+    - Some frontend tasks with jQuery and Backbone.js
+
+# Settings
+mainfont: Hoefler Text
+altfont: Helvetica Neue
+monofont: Courier
+fontsize: 12pt
+lang: en-US
+geometry: a4paper, left=50mm, right=30mm, top=40mm, bottom=20mm, marginparwidth=30mm
+---
