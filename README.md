@@ -4,7 +4,8 @@
 
 ## Intro
 
-Separating presentation from content makes life easier. The typical content of a CV is a perfect fit for a YAML file due to its structured nature:
+The separation of content and presentation makes life easier.
+And it's a perfect fit for a YAML file due to its structured nature:
 
 ```YAML
 ---
@@ -13,9 +14,9 @@ photo: "me.jpg"
 who:
   - Great Developer
 natural_languages: >
-  English (native)
+  English (C1)
 programming_languages: >
-  Python (C2), JavaScript (B2)
+  Python, JavaScript
 address:
   - City, Country
 email: semirook@gmail.com
@@ -35,9 +36,9 @@ experience:
     - list of buzzwords
 ```
 
-That makes super easy to update a CV while keeping a consistent structure.
+That makes super easy to update your CV while keeping a consistent structure.
 
-Thanks to [pandoc](http://pandoc.org/), we can then access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
+Thanks to [pandoc](http://pandoc.org/), we can access our data from `template.tex` using a special notation. Iterating on repetitive data structures becomes trivial:
 
 ```latex
 $for(experience)$
@@ -48,12 +49,14 @@ $for(experience)$
 $endfor$
 ```
 
-LaTeX takes then care of the typesetting with its usual elegance. Below a preview of the final result. Check out the [output](output.pdf) to see the compiled PDF.
+LaTeX takes care of the typesetting with its usual elegance. Below is the preview of the final result.
+Check out the [output](output.pdf) to see the compiled PDF.
 
 ![](output_1.png)
 ![](output_2.png)
+![](output_3.png)
 
-With this method, you can keep your entire CV encoded in a single YAML file, put it under version control (into a gist, for instance), and generate a PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
+With this method you can keep your entire CV described with a single YAML file, put it under version control (into a gist, for instance), and generate PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
 
 ## Peculiarities
 
