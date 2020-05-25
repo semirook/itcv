@@ -53,8 +53,6 @@ LaTeX takes care of the typesetting with its usual elegance. Below is the previe
 Check out the [output](output.pdf) to see the compiled PDF.
 
 ![](output_1.png)
-![](output_2.png)
-![](output_3.png)
 
 With this method you can keep your entire CV described with a single YAML file, put it under version control (into a gist, for instance), and generate PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
 
