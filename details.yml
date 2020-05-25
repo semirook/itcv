@@ -57,7 +57,7 @@ experience:
     city: Kyiv, Ukraine // Scottsdale, USA
     job: Software Engineer
     details:
-      - "Involved into the [Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
+      - "Was actively involved into the [Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
       - "Worked on initial [FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
         implementation for the Rules traversal, Lisp-like DSL to describe Rules
         conditions, handy library to handle complex schedules for so-called
