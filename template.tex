@@ -2,7 +2,10 @@
 %!TEX encoding = UTF-8 Unicode
 
 \documentclass[$fontsize$, a4paper]{article}
-
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
 \usepackage{graphicx}
 \usepackage{tikz}
 \graphicspath{ {./images/} }
@@ -117,12 +120,11 @@ $phone$\\
 \vspace{2em}
 
 $for(who)$
-{\Large $who$}\\
+{\Large $who$}\\[.1em]
 $endfor$
 
-\vspace{1em}
-
 $if(intro)$
+\vspace{1em}
 $for(intro)$
 $intro$\\[.5em]
 $endfor$
@@ -132,7 +134,7 @@ $if(pets)$
 \vspace{1em}
 \note{Pet Projects}
 $for(pets)$
-$pets$\\
+$pets$\\[.1em]
 $endfor$
 $endif$
 
@@ -140,26 +142,26 @@ $if(talks)$
 \vspace{1em}
 \note{Talks}
 $for(talks)$
-$talks$\\
+$talks$\\[.1em]
 $endfor$
 $endif$
 
 \vspace{1em}
 
 \note{Languages}
-\begin{minipage}[t]{0.55\textwidth}
+\vspace{.1em}
 $if(natural_languages)$
 $for(natural_languages)$
 \small{$natural_languages$}\\
 $endfor$
+\vspace{.5em}
 $endif$
-\end{minipage}\begin{minipage}[t]{0.5\textwidth}
 $if(programming_languages)$
 $for(programming_languages)$
 \small{$programming_languages$}\\
 $endfor$
 $endif$
-\end{minipage}
+
 \vfill
 
 \section*{Experience}
@@ -175,9 +177,9 @@ $endif$
 
 $if(experience.stack)$
 \begin{itemize}[leftmargin=0cm]
-    $for(experience.stack)$
-    \item[--] $experience.stack$
-    $endfor$
+$for(experience.stack)$
+\item[--] $experience.stack$
+$endfor$
 \end{itemize}
 $endif$
 \vspace{2em}

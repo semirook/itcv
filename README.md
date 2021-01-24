@@ -45,19 +45,22 @@ $for(experience)$
   $experience.years$\\
   \textsc{$experience.employer$}\\
   \emph{$experience.job$}\\
-  $experience.city$\\[.2cm]
+  $experience.city$\\
 $endfor$
 ```
 
 LaTeX takes care of the typesetting with its usual elegance. Below is the preview of the final result.
 Check out the [output](output.pdf) to see the compiled PDF.
 
-With this method you can keep your entire CV described with a single YAML file, put it under version control (into a gist, for instance), and generate PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
+![](output_1.png)
+![](output_2.png)
+
+With this method you can keep your entire CV described with a single YAML file, put it under version control and generate PDF on the fly when needed. You can also easily export it to other formats, like HTML for web publishing (I've heard [Jekyll](http://jekyllrb.com/) likes YAML). Convenient, portable and time-proof.
 
 ## Peculiarities
 
 The original `cv-boilerplate` TeX template was updated with several specific blocks like `details` and `stack`. You don't have to use them all. Just pay attention that the first page is a cover letter only. Next pages are about your experience.
-Your photo is rounded automatically but maybe you'll need to tune the `roundpic` macro values to center and size your face properly.
+Your photo is rounded automatically but maybe you'll need to play around the `roundpic` macro values to center and size your face properly.
 
 ## Dependencies
 

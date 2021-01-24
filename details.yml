@@ -2,14 +2,16 @@
 name: Roman Zaiev
 photo: "me.jpg"
 who:
-  - 9+ Years Experience Full Stack Developer
-  - Python + JS/TS
+  - Full Stack Software Engineer, Python + JS/TS
+  - 10 years of professional experience
 natural_languages: >
   English (C1), Russian (C2), Ukrainian (C2)
-programming_languages: >
-  Python (primary), JavaScript & TypeScript. Familiar with Rust, Go and Clojure
+programming_languages:
+  - Python (primarily), JavaScript & TypeScript
+  - Familiar with Rust, Go, Clojure and others
 address:
-  - London, GB (Tier 2 General)
+  - London, GB
+  - non-EEA Tier 2 Skilled Worker
 phone: "+44 ... ..."
 email: semirook@gmail.com
 urls:
@@ -17,126 +19,112 @@ urls:
   - github.com/semirook
 pets:
   - "[Krolib: magic library and DSL to handle complex schedules](https://github.com/nextiva/krolib)"
-  - "[Flask-Kit: backbone for Flask-based projects with flavor of Django](https://github.com/semirook/flask-kit)"
-  - "[Snaql: raw *QL queries from Python without pain](https://github.com/semirook/snaql)"
+  - "[Flask-Kit: backbone for Flask-based projects with a flavor of Django](https://github.com/semirook/flask-kit)"
+  - "[Snaql: raw *QL queries in Python without pain](https://github.com/semirook/snaql)"
   - "*...and [others](https://github.com/semirook)*"
 talks:
   - "[API-centric Web Development with Tornado](https://speakerdeck.com/semirook/api-centric-web-development-with-tornado-or-the-great-refactoring-story) (2015)"
   - "[Search? Sphinx!](https://speakerdeck.com/semirook/poisk-sphinx) (2013)"
-
 intro:
-  - Over the past years I have faced unique challenges, huge number of technologies
-    and my experience can be of use to your business. Systematisation, synthesis
-    and interdisciplinary work is my strength.
-  - I know how a product goes through ~~from denial to acceptance~~
-    from requirements to release. Both as a regular developer and as a tech leader.
-  - Usually I'm working with asynchronous Python but also enjoy modern
-    frontend, have a strong development experience with React ecosystem.
-  - Prefer CLI tools like `vim`, `tmux`, `zsh`, `fzf` and other
-    three-four letter words in my daily work. Ideally, this should convince you
-    of my passion for efficiency and minimalism.
-  - The author of the best Russian-language IT channel for Telegram (according
-    to the author) — [Tipa Pro IT](https://t.me/tipaproit), it helps me to keep
-    up with the industry. I'm keen on my job. As well as in graphic design and UI/UX.
+  - Over the past years, I have faced unique challenges in a plethora of different projects.
+    Having a strong background in software engineering, deep understanding of modern technologies and their possibilities,
+    my skills can be of use to your business.
+  - Scrum? Kanban? Waterfall? Yes. TDD? DDD? EDA? Definitely.
+  - According to [the list of soft skills](https://www.thebalancecareers.com/list-of-soft-skills-2063770), I have all of them. Well, most of them.
+  - Passionate about my channels in Telegram, like [Tipa Pro IT](https://t.me/tipaproit) (to keep up with the industry)
+    and [Tipa Pro UK](https://t.me/tipaprouk) (to share my love of London), graphic and web design, UI/UX, urbanism, playing Go and learning something new.
 
 experience:
   - years: Dec 2019 — Present
-    employer: Revolut
+    employer: "[Revolut](https://www.revolut.com)"
     city: London, GB
     job: Software Engineer
     details:
-      - "Developing services for the company's backoffice. Designed and implemented
-        solution for the Modeling Liquidity Risk project. Successfully combining
-        the roles of full-stack developer and product owner."
+      - "Backoffice services and applications."
+      - "Designed and implemented robust solutions for multiple internal projects like
+        Modeling Liquidity Risk, Vendor Due Diligence and Counterparty Exposures.
+        Applications maintenance and improvements as a daily routine."
     stack:
-      - Python 3, FastAPI, PostgreSQL, Exasol, K8S, Terraform etc.
+      - Python 3, Flask, FastAPI, PostgreSQL, Exasol, K8S, Terraform, etc.
       - React, TypeScript
 
   - years: Fab 2017 — Aug 2019
-    employer: Nextiva
+    employer: "[Nextiva](https://www.nextiva.com)"
     city: Kyiv, Ukraine // Scottsdale, USA
     job: Software Engineer
     details:
-      - "Was actively involved into the [Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
-      - "Worked on initial [FSM](https://en.wikipedia.org/wiki/Finite-state_machine)
-        implementation for the Rules traversal, Lisp-like DSL to describe Rules
-        conditions, handy library to handle complex schedules for so-called
-        time-based rules and internal SaaS on top of it (was published as the
-        first open source project of the company — Kronos), etc."
-      - Actively participated in the life of the company and achieved the
-        title of Rockstar Developer (yes, I'm still proud of it).
+      - "[Rules Engine](https://www.nextiva.com/support/articles/managing-automation-and-rules-in-nextiva-service-crm.html) development."
+      - "Was working on the Core application, DSL to describe rules conditions,
+        handy library to handle complex schedules (was published as the company's first open source project — Krolib)
+        for so-called time-based rules, internal SaaS on top of it and many more."
     stack:
       - Python 3, asyncio, aiohttp, RabbitMQ, JSON:API, Protobuf, gRPC, PostgreSQL, K8S, etc.
-      - Loads of bespoke stuff
 
   - years: Nov 2015 — Nov 2016
-    employer: B2B Soft
+    employer: "[B2B Soft](https://b2bsoft.com)"
     city: Kyiv, Ukraine // New York, USA
     job: Software Engineer, Tech Lead
     details:
-      - "Developed the brand new medical platform.
-        Designed and successfully implemented service-oriented architecture,
-        with stepwise Django monolith decomposition, rolling releases, etc. From A to Z."
+      - "The brand new medical platform. Design, implementation, release."
     stack:
       - Python 3, Tornado, JSON RPC
       - ES6, React/Redux, Webpack (SPA)
-      - Sphinx Search (live, geo, delta indexes flow)
+      - Sphinx Search (live search, geo, delta indexes)
       - Real-time billing and stats (Apache Kafka, MongoDB)
       - Third-party APIs integration (Authorize.Net, Google, Facebook, Mandrill, MaxMind)
-      - Ansible (IaC), AWS (EC2, RDS, S3, Route53)
+      - Ansible (IaC), AWS (EC2, RDS, S3, Route53) to rule them all
 
   - years: Mar 2015 — Nov 2015
-    employer: SoftServe
+    employer: "[SoftServe](https://www.softserveinc.com/en-us)"
     city: Kyiv & Lviv, Ukraine // San Jose, USA
     job: Software Engineer
     details:
-      - "Was involved in the development of the telemetry aggregation solution for Cisco:
-        Cloud Services, BigData extension for OpenStack Horizon."
+      - "Telemetry aggregation solution for Cisco; Cloud Services, BigData extension for OpenStack Horizon."
     stack:
-      - Python 2/3, Logstash, MongoDB, RabbitMQ, REST, Puppet
+      - Python 2/3, Logstash, MongoDB, RabbitMQ, Puppet
       - OpenStack, Flask, Tornado, Ansible
       - ES5, Backbone.js, Marionette.js
 
   - years: Fab 2014 — Mar 2015
-    employer: Kasta.ua
+    employer: "[Kasta](https://kasta.ua)"
     city: Kyiv, Ukraine
     job: Software Engineer, Head of Platform Development
     details:
-      - "Designed and developed the brand new e-commerce platform."
+      - "The brand new e-commerce platform. Design, implementation, MVP."
     stack:
       - Python 3, Tornado, Elasticsearch, ZeroMQ, ZeroC, Protobuf, PostgreSQL
       - ES5, Backbone.js, Marionette.js
 
   - years: Aug 2013 — Jan 2014
-    employer: GetGoing.com
+    employer: "[GetGoing](http://getgoing.com)"
     city: Kyiv, Ukraine // San Francisco, USA
     job: Software Engineer
     details:
-      - "Developed seat preview and seat selection for the most popular US airlines
-        (backend and frontend, Amadeus GDS integration)."
-      - "Mid-office, statistical data search and aggregation,
+      - "Mid-office development, statistical data search and aggregation,
         [PNR](http://en.wikipedia.org/wiki/Passenger_name_record) Management SPA."
+      - "Implemented seat preview and seat selection for the most popular US airlines
+        (backend and frontend, Amadeus GDS integration)."
     stack:
       - Python 2/3, Django, PostgreSQL, Celery, Elasticsearch
       - ES5, Backbone.js, Marionette.js
 
   - years: Nov 2012 — Aug 2013
-    employer: Prom.ua
+    employer: "[Prom](https://prom.ua)"
     city: Kyiv, Ukraine
     job: Backend Developer
     details:
-      - "Maintained company's internal services, CRM."
+      - "Company's internal services maintenance, CRM."
       - "Better test coverage, legacy code refactoring, data processing and third-party APIs integration."
     stack:
-      - Python 2, Pylons, Mako, SQLAlchemy, Celery, Mercurial
+      - Python 2, Pylons, SQLAlchemy, Celery, Mercurial
 
   - years: May 2011 — Nov 2012
-    employer: Future Colors
+    employer: "[Future Colors](https://github.com/futurecolors)"
     city: Moscow, Russia
     job: Backend Developer
     details:
-      - "Took part in the development of the wide range of studio websites:
-        TNK series (TNK Carbon, regional site), [FutureToday](http://fut.ru) (job offers for Russian students),
+      - "Participated in the development of:
+        TNK series websites (TNK Carbon, regional site), [FutureToday](http://fut.ru) (job offers for Russian students),
         [Belonika](http://belonika.ru) (Russian top blogger culinary portal),
         [RAF](http://0560.ru/en/) (Russian Auto Fellowship)."
     stack:
@@ -149,6 +137,6 @@ altfont: Helvetica Neue
 monofont: Courier
 fontsize: 12pt
 lang: en-US
-geometry: a4paper, left=40mm, right=30mm, top=40mm, bottom=20mm, marginparwidth=30mm
+geometry: a4paper, left=50mm, right=30mm, top=40mm, bottom=40mm, marginparwidth=40mm
 ---
 
